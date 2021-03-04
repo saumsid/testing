@@ -1,0 +1,79 @@
+man - to check manual example (man )
+pwd - current working directory/print working directory
+ls -gives list
+clear - clear scrren
+whoami - gives user
+date - gives current date with time stamp
+date --date="2 years ago" - specific date
+cal - to check calender (command : cal december 2020)
+bc - arithmatic operations (command : echo "10+2" | bc)
+
+
+cd - change directory
+cd .. - to  come out of a directory
+mkdir - make directory
+rmdir - remove directory
+mkdir{a,b,c} - multiple directories
+rmdir{a,b,c} - remove directories
+mvdir b c - move b to c
+cp b.txt c.txt - to copy
+
+touch abc - to create text file
+ls -l - diplay files rowwise and coloumnwise
+ls -lt - according to time(ascending)
+ls -rt -according to time (descending)
+
+
+
+sort the files 
+sort filename.txt - ascending
+sort -r filename.txt - descdending
+sort -n filename.txt - ascending for numbers
+sort --nr filename.txt - descending for numbers
+
+hidden files and directoris
+mkdir .directoryname -to create hidden directory
+touch .abc.txt - to create hidden text file
+ls -a - to see hidden file
+
+word count (wc)    wc [option] filename
+wc -l - Prints the number of lines in a file.
+wc -w - prints the number of words in a file.
+wc -c - Displays the count of bytes in a file.
+wc -m - prints the count of characters from a file.
+wc -L - prints only the length of the longest line in a file.
+
+file permissions : 
+chmod [options] directoryname
+
+read - 4
+write -2
+executable - 1
+e.g :-  chmod 700 directoryname
+ 
+
+g- group
+a - all users
+
+'-' - to remove specific permission
+'+' - to add specific permisiion
+'=' - assign specific permission
+
+chmod g=r filename  :=   for group only to read
+chmod a-x filename  :=  all users no executable
+
+grep - for pattern matching
+
+grep -l ".txt"
+
+
+ 
+
+
+
+
+
+
+
+
+
