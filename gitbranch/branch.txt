@@ -1,0 +1,17 @@
+create branch
+command : git branch "branch name"
+checkout branch
+command : git checkout branchname
+
+git status
+git add .
+git commit -m "added branch.txt"
+git status
+git push -u origin branch name
+
+merge new branch in master
+command : git merge "branch name"
+delete branch
+git branch -d "branch name"   ---- only from local
+git push origin --delete "branch name"  ----from remote
+
